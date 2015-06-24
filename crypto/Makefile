@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-I.
 LD=gcc
-LDFLAGS=-lsodium
+LDFLAGS=-static -lsodium
 
 DEBUG=-g
 
