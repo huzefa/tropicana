@@ -5,4 +5,4 @@ services:
   - cloudant
 before_script: chmod +x ./server/devScript.sh; cd server
 
-script: ./server/devScript.sh
+script: ./devScript.sh
