@@ -3,6 +3,6 @@ node_js:
   - "0.10.26"
 services:
   - cloudant
-before_script: chmod +x ./server/devScript.sh
+before_script: chmod +x ./server/devScript.sh; cd server
 
 script: ./server/devScript.sh
